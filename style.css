@@ -446,3 +446,72 @@
 .work-button:hover{
     background-color: rgb(22, 22, 80);
 }
+
+.upper-footer img{
+    width: 100%;
+}
+
+.footer-main{
+    display: flex;
+    background-color:rgb(58, 49, 30);
+    padding-top: 50px;
+    color: blanchedalmond;
+    font-family: "Noto Serif Georgian", serif;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.footer-divs{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.footer-1 , .footer-2{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    
+}
+.footer-1 p:hover , .footer-2 p:hover {
+    color: orangered;
+    text-decoration-color: orangered;
+    text-decoration: underline;
+}
+.footer-3{
+    align-items: center;
+    width: 8%;
+    padding-left: 0px;
+}
+.footer-headings {
+    color: orangered;
+    font-size: 1.25rem;
+}
+.contact-4{
+    color: orangered;
+}
+.footer-button{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+
+.footer-button:hover{
+    cursor: pointer;
+}
+
+
+.footer-logo i {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.socialMedia-2 :hover , .socialMedia-3:hover , .socialMedia-4:hover {
+    color: rgb(90, 126, 247);
+}
+
+.socialMedia-5 :hover{
+    color: rgb(238, 32, 32);
+}
