@@ -1,0 +1,154 @@
+@media (min-width:480px) and (max-width:767px){
+    .up-nav{
+        display: none;
+    }
+    .nav img{
+        margin-left: 30px;
+    }
+    .nav-middle  a{
+        display: none;
+    }
+    .nav-end  a{
+        display: none;
+    }
+    .nav-options i{
+        color: rgba(255, 235, 205, 0.836);
+        margin-right: 20px;
+    }
+
+    .hero2{
+        width: 30%;
+    }
+    .hero2 p{
+        font-size: 1.25rem;
+    }
+
+    .technology{
+        width: 40%;
+    }
+    .technology-text{
+        width: 100%;
+        font-size: 1.25rem;
+    }
+    .latest-1{
+        width: 90vw; 
+    }
+    .latest-1-heading {
+        text-align: center;
+    }
+    .latest-1-more{
+        text-align: center;
+    }
+    
+    .mahashivratri-image{
+        width:90%;
+        /* padding-left: 50px; */
+        /* padding-right: 50px; */
+        
+    }
+    .mahashivratri-content{
+        width:80%;
+    }
+    .conscious-planet{
+        width: 90%;
+    }
+    .planet{
+       width:33%;
+    }
+    .planet img{
+     
+    }
+    .conscious-planet img{
+       width: 100%;
+       object-fit: contain;
+    }
+    .conscious-planet p{
+        font-size: 1rem;
+        left: 20%;
+    }
+    .conscious-planet .planet-head{
+        position: absolute;
+        bottom: 65%;
+        left:10%;
+        font-size: 1.6rem;  
+    }
+    .conscious-planet .planet-subhead{
+        font-size: 1rem;
+        left:1%;
+    }
+    .conscious-planet .planet-button{
+        width: 60%;
+        border-radius: 4px;
+        font-size: 0.7rem;
+    }
+    .community{
+        width: 90%;
+    }
+    .volunteering{
+        width: 100%;   
+    }
+    .volunteering-image{
+        width: 90%;
+    }
+    .volunteering img{   
+        width: 100%;
+    }
+    .volunteering-content{
+        width: 90%;
+        text-align: center;
+        gap: 20px;
+    }
+    .contribution{
+        width: 100%;   
+        flex-direction: column-reverse;
+        padding-bottom: 20px;
+        
+    }
+    .contribution-image{
+        width: 90%;
+    }
+    .contribution img{   
+        width: 100%;
+    }
+
+    .contribution-content{
+        width: 90%;
+        align-items: center;
+        gap:20px;
+        padding-top: 20px;
+    }
+    .footer-main{     
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* padding: 50px 10%; */
+        width: 100%;
+        font-size: 1rem;
+    }
+    .footer-headings {
+        color: orangered;
+        font-size: 1.5rem;
+    }
+    .footer-1 , .footer-2  {
+        width: 25%;
+        padding-left: 0%;
+    }
+    .footer-5{
+        width:40%
+    }
+    .footer-3{
+        transform: rotate(90deg) ;
+        width: 100%;
+        height: 100px;
+        justify-content: center;   
+    }
+    .footer-3 img{
+        transform: scale(1.5);
+    }
+
+    .footer-4, .footer-6, .footer-7{
+        width: 33%;  
+    }
+
+
+
+}

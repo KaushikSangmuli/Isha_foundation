@@ -1,0 +1,143 @@
+@media ( min-width: 768px) and (max-width:1024px) {
+    .up-nav{
+        display: none;
+    }
+    .nav img{
+        margin-left: 30px;
+    }
+    .nav-middle  a{
+        display: none;
+    }
+    .nav-end  a{
+        display: none;
+    }
+    .nav-options i{
+        color: rgba(255, 235, 205, 0.836);
+        margin-right: 20px;
+    }
+
+    .hero2{
+        width: 30%;
+    }
+
+    .technology{
+        width: 40%;
+    }
+    .latest-1{
+        width: 90vw; 
+    }
+    .latest-1-heading {
+        text-align: center;
+    }
+    .latest-1-more{
+        text-align: center;
+    }
+    .mahashivratri-content{
+        width:80%;
+    }
+    .conscious-planet{
+        width: 90%;
+    }
+    .planet{
+       width:33%;
+    }
+    .planet img{
+     
+    }
+    .conscious-planet img{
+       width: 100%;
+       object-fit: contain;
+    }
+    .conscious-planet .planet-head{
+        position: absolute;
+        bottom: 65%;
+        left:10%;
+        font-size: 2rem;  
+    }
+    .conscious-planet .planet-subhead{
+        font-size: 1.4rem;
+        left:10%;
+    }
+    .conscious-planet .planet-button{
+        width: 150px;
+        border-radius: 4px;
+    }
+    .community{
+        width: 90%;
+    }
+    .volunteering{
+        width: 100%;   
+    }
+    .volunteering-image{
+        width: 90%;
+    }
+    .volunteering img{   
+        width: 100%;
+    }
+    .volunteering-content{
+        width: 90%;
+        text-align: center;
+        gap: 20px;
+    }
+    .contribution{
+        width: 100%;   
+        flex-direction: column-reverse;
+        padding-bottom: 20px;
+        
+    }
+    .contribution-image{
+        width: 90%;
+    }
+    .contribution img{   
+        width: 100%;
+    }
+
+    .contribution-content{
+        width: 90%;
+        align-items: center;
+        gap:20px;
+        padding-top: 20px;
+    }
+    .footer-main{
+        
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 50px 10%;
+        font-size: 1rem;
+    }
+    .footer-headings {
+        color: orangered;
+        font-size: 1.5rem;
+    }
+    .footer-1 , .footer-2  {
+        width: 25%;
+        padding-left: 0%;
+    }
+    .footer-5{
+        width:40%
+    }
+    .footer-3{
+        transform: rotate(90deg) ;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        
+    }
+    .footer-3 img{
+        transform: scale(1.5);
+    }
+
+    .footer-4, .footer-6, .footer-7{
+        width: 30%;
+ 
+        
+    }
+
+
+
+}
+
+
+/* 480px for mobiile
+768px for tablet
+1024 for laptops */

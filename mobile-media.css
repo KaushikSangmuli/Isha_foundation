@@ -1,0 +1,197 @@
+@media( max-width: 479px){
+        .up-nav{
+        display: none;
+    }
+    .nav img{
+        margin-left: 30px;
+    }
+    .nav-middle  a{
+        display: none;
+    }
+    .nav-end  a{
+        display: none;
+    }
+    .nav-options i{
+        color: rgba(255, 235, 205, 0.836);
+        margin-right: 20px;
+    }
+    .hero{
+        flex-wrap: wrap;
+    }
+    .hero2{
+        width: 80%;
+        /* this define the image size */
+    }
+    .hero2 p{
+        font-size: 3rem;
+    }
+
+    .technology{
+        width: 80%
+    }
+    .technology-text{
+        width: 100%;
+        font-size: 1.25rem;
+    }
+    .hero-second{
+        padding-top: 16px;
+    }
+    .latests{
+        padding-top: 16px;
+    }
+    .latest-1{
+        width: 90vw; 
+    }
+    .latest-1-heading {
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 600;
+        padding-top: 0;
+    }
+    .latest-1-more{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .latest{
+        width: 90%;
+    }
+    .latest img{
+        width: 100%;
+    }
+    .mahashivratri{
+        padding-top: 30px;
+    }
+    .mahashivratri-image{
+        width:90%;
+        /* padding-left: 50px; */
+        /* padding-right: 50px; */
+        
+    }
+    .mahashivratri-content{
+        width:80%;
+    }
+    .mahashivratri-content p{
+        font-size: 1rem;
+    }
+    .input-designs{
+        width: 320px;
+        height: 36px;
+    }
+    .work{
+        margin-top: 30px;
+    }
+    .conscious-planet{
+        
+        margin-top: 20px;
+        width: 90%;
+        gap: 20px;
+    }
+    .planet{
+       width:90%;
+    }
+    .conscious-planet img{
+       width: 100%;
+       object-fit: contain;
+       border-radius: 8px;
+       box-shadow: 0 0 10px 1px rgb(119, 117, 117);
+
+    }
+    .conscious-planet p{
+        font-size: 2rem;
+        left: 20%;
+    }
+    .conscious-planet .planet-head{
+        position: absolute;
+        bottom: 65%;
+        left:15%;
+        font-size: 2.5rem;  
+    }
+    .conscious-planet .planet-subhead{
+        font-size: 1.8rem;
+        left:10%;
+    }
+    .conscious-planet .planet-button{
+        border-radius: 8px;
+        padding: 6px 10%;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .community{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    .volunteering{
+        width: 100%;   
+    }
+    .volunteering-image{
+        width: 90%;
+    }
+    .volunteering img{   
+        width: 100%;
+    }
+    .volunteering-content{
+        width: 90%;
+        text-align: center;
+        gap: 20px;
+    }
+    .contribution{
+        width: 100%;   
+        flex-direction: column-reverse;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+    }
+    .contribution-image{
+        width: 90%;
+    }
+    .contribution img{   
+        width: 100%;
+    }
+
+    .contribution-content{
+        width: 90%;
+        align-items: center;
+        gap:20px;
+        padding-top: 20px;
+    }
+    .upper-footer img{
+        height: 40px;
+    }
+    .footer-main{     
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* padding: 50px 10%; */
+        width: 100%;
+        font-size: 1rem;
+    }
+    .footer-headings {
+        color: orangered;
+        font-size: 1.5rem;
+    }
+    .footer-1 , .footer-2  {
+        width: 25%;
+        padding-left: 0%;
+    }
+    .footer-5{
+        width:40%
+    }
+    .footer-3{
+        transform: rotate(90deg) ;
+        width: 100%;
+        height: 100px;
+        justify-content: center;   
+    }
+    .footer-3 img{
+        transform: scale(1.5);
+    }
+
+    .footer-4, .footer-6, .footer-7{
+        width: 33%;  
+    }
+    .footer-button{
+        font-size: 0.8rem;
+    }
+
+
+
+}
