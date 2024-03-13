@@ -3,6 +3,12 @@
 /* font-family: "Noto Serif Georgian", serif; */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 /* font-family: "Truculenta", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Noto+Serif+Georgian:wght@100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+/* font-family : "Kalam", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Noto+Serif+Georgian:wght@100..900&family=Patrick+Hand&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+/* font-family: "Patrick Hand", cursive */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* font-family: "Josefin Sans", sans-serif; */
 *{
     margin: 0;
     padding: 0;
@@ -94,26 +100,26 @@
 }
 .hero2{
     box-shadow: 0 0 10px 1px black;
-    transition: transform 0.3 ease-in-out;
+  
     width: 360px;
     overflow: hidden;
     position: relative;
- 
-
 }
 .hero2 img{
     width: 100%;
     object-fit: contain;
+    transition: transform 0.3s ease;
  
 }
 .hero2 p{
     font-size: 2.5rem;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: bisque;
     font-weight: 700;
     position: absolute;
     left: 40px;
     bottom: 10%;  
+    text-shadow: 2px 2px 1px black;
 }
 
 .hero2 :hover{
@@ -387,7 +393,10 @@
     font-size: 2rem;
     text-align: center;
     width: 70%;
-    font-family: "Truculenta", sans-serif;
+    /* font-family: "Truculenta", sans-serif; */
+    /* font-family: "Kalam"; */
+    font-family: "Patrick Hand";
+
 }
 
 .volunteering{
@@ -399,6 +408,7 @@
     padding-top: 50px;
     flex-wrap: wrap;
     gap: 20px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .volunteering-content{
@@ -414,6 +424,7 @@
     width: 80%;
     padding-top: 50px;
     flex-wrap: wrap;
+    font-family: "Josefin Sans", sans-serif;
 }
 .contribution-content{
     display: flex;
@@ -434,6 +445,8 @@
 .work-text{
     padding-top: 10px;
     font-size: 1.25rem;
+    line-height: 1.4;
+    
 }
 .work-button{
     margin-top: 10px;
@@ -450,6 +463,7 @@
 }
 
 .upper-footer img{
+    
     width: 100%;
     height: 80px;
 }
@@ -459,7 +473,7 @@
     background-color:rgb(58, 49, 30);
     padding-top: 50px;
     color: blanchedalmond;
-    font-family: "Noto Serif Georgian", serif;
+    font-family: "Josefin Sans", sans-serif;
     justify-content: space-between;
     padding-bottom: 20px;
     /* flex-wrap: wrap; */
@@ -521,3 +535,4 @@
 .socialMedia-5 :hover{
     color: rgb(238, 32, 32);
 }
+
