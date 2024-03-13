@@ -91,8 +91,7 @@
     color: brown;
 }
 
-.hero{
-    
+.hero{   
     display: flex;
     align-items: center;
     background-color: rgba(179, 177, 177, 0.507);
@@ -100,7 +99,6 @@
 }
 .hero2{
     box-shadow: 0 0 10px 1px black;
-  
     width: 360px;
     overflow: hidden;
     position: relative;
@@ -109,22 +107,23 @@
     width: 100%;
     object-fit: contain;
     transition: transform 0.3s ease;
- 
+    opacity: 0.8;
 }
 .hero2 p{
     font-size: 2.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: bisque;
+    color:beige;
     font-weight: 700;
     position: absolute;
     left: 40px;
     bottom: 10%;  
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 5px black
 }
 
 .hero2 :hover{
     transform: scale(1.2);
     max-width: 360px;  
+    opacity: 1.1;
 }
 .afterhero-img{
     display: flex;
@@ -154,6 +153,13 @@
 
 .technologies img{
     width: 100%;
+    filter: brightness(90%);
+    transition: transform 0.3s ease ;
+}
+.technologies img:hover{
+    box-shadow: 1px 1px 10px 2px rgb(19, 18, 18);
+    filter: brightness(100%);
+    transform: scale(1.05);
 }
 
 .technology-text{
@@ -172,6 +178,8 @@
 
 .technology-button:hover{
     background-color: rgb(48, 48, 112);
+    cursor: pointer;
+    box-shadow: 4px 4px 6px 1px rgb(19, 18, 18);
 }
 
 .hero-second{
@@ -313,7 +321,7 @@
 }
 .input-designs:hover{
     border: 1.5px solid gray;
-    box-shadow: 0px 0px 2px 1px rgba(24, 23, 23, 0.205);
+    box-shadow: 1px 1px 2px 2px rgba(15, 15, 15, 0.205);
 }
 .form-signup{
     margin-top: 30px;
@@ -328,6 +336,8 @@
 
 .form-signup:hover{
     background-color: rgb(29, 29, 63);
+    cursor: pointer;
+    box-shadow: 4px 4px 6px 1px rgb(65, 63, 63);
 }
 
 .work{
@@ -385,6 +395,8 @@
 }
 .conscious-planet .planet-button:hover{
     background-color: rgb(27, 27, 187);
+    cursor: pointer;
+    box-shadow: 4px 4px 6px 1px rgb(19, 18, 18);
 }
 
 .community{
@@ -393,8 +405,6 @@
     font-size: 2rem;
     text-align: center;
     width: 70%;
-    /* font-family: "Truculenta", sans-serif; */
-    /* font-family: "Kalam"; */
     font-family: "Patrick Hand";
 
 }
@@ -460,6 +470,8 @@
 
 .work-button:hover{
     background-color: rgb(22, 22, 80);
+    cursor: pointer;
+    box-shadow: 4px 4px 6px 1px rgb(19, 18, 18);
 }
 
 .upper-footer img{
@@ -530,9 +542,14 @@
 
 .socialMedia-2 :hover , .socialMedia-3:hover , .socialMedia-4:hover {
     color: rgb(90, 126, 247);
+    cursor: pointer;
 }
 
 .socialMedia-5 :hover{
     color: rgb(238, 32, 32);
+    cursor: pointer;
+}
+.socialMedia-5 :active{
+    cursor: wait;
 }
 
